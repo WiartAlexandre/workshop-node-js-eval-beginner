@@ -2,20 +2,7 @@ const chalk = require("chalk");
 
 const numExercise = process.argv[2] || 1;
 
-const inputs = [
-  "it sounds good !",
-  "15843",
-  [
-    { operator: 'add', value: 6 },
-    { operator: 'substract', value: 5 },
-    { operator: 'add', value: 9 },
-    { operator: 'add', value: 3 }
-  ],
-  function(a, b, c) {
-    return a(b, c);
-  },
-  "exercise5-sample-1.txt"
-];
+const inputs = [];
 
 if (!Number.isInteger(parseInt(numExercise))) {
   console.log(

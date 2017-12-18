@@ -1,7 +1,7 @@
 {
-  "name": "workshop-node-js-noob",
+  "name": "workshop-node-js-eval-beginner",
   "version": "1.0.0",
-  "description": "Workshop to learn the basics of Node.js.",
+  "description": "Workshop to evaluate knowledges of Node.js for beginners.",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alvinberthelot/workshop-node-js-noob.git"
+    "url": "git+https://github.com/alvinberthelot/workshop-node-js-eval-beginner.git"
   },
   "author": "Alvin Berthelot",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alvinberthelot/workshop-node-js-noob/issues"
+    "url": "https://github.com/alvinberthelot/workshop-node-js-eval-beginner/issues"
   },
-  "homepage": "https://github.com/alvinberthelot/workshop-node-js-noob#readme"
+  "homepage": "https://github.com/alvinberthelot/workshop-node-js-eval-beginner#readme"
 }
