@@ -28,11 +28,17 @@ To start program.
 
 Your program must be written into the file **_src/exercise1.js_** into the function `run`.
 
-This function should return the number of characters of the string given in input.
+This function should return the 3 first values of an array given in input.
 
 ```javascript
 // For example
-run('Hello you') // 9
+run([
+	'Hello you',
+	9,
+	'44',
+	666,
+	'bye'
+]) // ['Hello you', 9, '44']
 ```
 
 After finish this exercise, please commit this file.
@@ -45,13 +51,13 @@ After finish this exercise, please commit this file.
 
 Your program must be written into the file **_src/exercise2.js_** into the function `run`.
 
-This function should return a string with only number under 6 of the string given in input.
+This function should return a number which is the sum of numbers written in a string delimited by comma.
 
 ```javascript
 // For example
-run('14725') // 1425
-run('642356') // 4235
-run('125') // 125
+run('14,7,2') // 23
+run('64,23,56,7') // 150
+run('1,2,5,4,3') // 15
 ```
 
 :point_right: function[`split`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split) should help you.
@@ -66,22 +72,17 @@ After finish this exercise, please commit this file.
 
 Your program must be written into the file **_src/exercise3.js_** into the function `run`.
 
-This function should return (a number) which is the result of the values of objects with specific operator mentionned in the property "operator".
+This function should return an object which combine 2 objects given in input.
 
 ```javascript
-// For example +2-4+3=1
 run([
-  { operator: 'add', value: 2 },
-  { operator: 'substract', value: 4 },
-  { operator: 'add', value: 3 }
-]) // 1
-// For example +2+5+7-3=11
+  { name: 'Dupont', money: 200 },
+  { firstname: 'Marc', money: 40 }
+]) // { name: 'Marc', name: 'Dupont', money: 240 }
 run([
-  { operator: 'add', value: 2 },
-  { operator: 'add', value: 5 },
-  { operator: 'add', value: 7 },
-  { operator: 'substract', value: 3 },
-]) // 11
+  { name: 'Thibault', money: 601 },
+  { firstname: 'Vanessa', money: 120 }
+]) // { name: 'Vanessa', name: 'Thibault', money: 721 }
 ```
 
 After finish this exercise, please commit this file.
@@ -96,7 +97,7 @@ Your program must be written into the file **_src/exercise4.js_** into the funct
 
 Be careful, some code is already present for this exercise, it's strictly forbidden to change this code.
 
-This function should return a particular string : "The value of One is 1, The value of Two is 2, The value of Three is 3".
+This function should return the number 30 with inputs already given.
 
 After finish this exercise, please commit this file.
 
