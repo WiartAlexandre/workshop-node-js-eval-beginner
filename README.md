@@ -78,11 +78,11 @@ This function should return an object which combine 2 objects given in input.
 run([
   { name: 'Dupont', money: 200 },
   { firstname: 'Marc', money: 40 }
-]) // { name: 'Marc', name: 'Dupont', money: 240 }
+]) // { firstname: 'Marc', name: 'Dupont', money: 240 }
 run([
   { name: 'Thibault', money: 601 },
   { firstname: 'Vanessa', money: 120 }
-]) // { name: 'Vanessa', name: 'Thibault', money: 721 }
+]) // { firstname: 'Vanessa', name: 'Thibault', money: 721 }
 ```
 
 After finish this exercise, please commit this file.
