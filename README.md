@@ -104,3 +104,19 @@ After finish this exercise, please commit this file.
 	git add src/exercise4.js
 
 	git commit -m "Exercise 4"
+
+### Exercise 5
+
+Your program must be written into the file **_src/exercise5.js_** into the function `run`.
+
+This function should return (a number) which is the sum of the values written in the path given in input.
+
+```javascript
+run("exercise5-sample-1.txt") // 30
+```
+
+After finish this exercise, please commit this file.
+
+	git add src/exercise5.js
+
+	git commit -m "Exercise 5"
