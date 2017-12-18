@@ -10,9 +10,10 @@ const inputs = [
     666,
     "bye"
   ],
+  "64,23,56,7",
   [
-    { name: 'Dupont', money: 200 },
-    { firstname: 'Marc', money: 40 }
+    { name: "Dupont", money: 200 },
+    { firstname: "Marc", money: 40 }
   ],
   function(a, b, c) {
     return a(b, c);
