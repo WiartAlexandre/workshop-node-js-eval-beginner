@@ -90,3 +90,17 @@ After finish this exercise, please commit this file.
 	git add src/exercise3.js
 
 	git commit -m "Exercise 3"
+
+### Exercise 4
+
+Your program must be written into the file **_src/exercise4.js_** into the function `run`.
+
+Be careful, some code is already present for this exercise, it's strictly forbidden to change this code.
+
+This function should return the number 34 with inputs already given.
+
+After finish this exercise, please commit this file.
+
+	git add src/exercise4.js
+
+	git commit -m "Exercise 4"
