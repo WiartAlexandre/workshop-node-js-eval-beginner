@@ -67,3 +67,26 @@ After finish this exercise, please commit this file.
 	git add src/exercise2.js
 
 	git commit -m "Exercise 2"
+
+### Exercise 3
+
+Your program must be written into the file **_src/exercise3.js_** into the function `run`.
+
+This function should return an object which combine 2 objects given in input.
+
+```javascript
+run(
+  { name: 'Dupont', money: 200 },
+  { firstname: 'Marc', money: 40 }
+) // { name: 'Marc', name: 'Dupont', money: 240 }
+run(
+  { name: 'Thibault', money: 601 },
+  { firstname: 'Vanessa', money: 120 }
+) // { name: 'Vanessa', name: 'Thibault', money: 721 }
+```
+
+After finish this exercise, please commit this file.
+
+	git add src/exercise3.js
+
+	git commit -m "Exercise 3"
