@@ -112,7 +112,7 @@ Your program must be written into the file **_src/exercise5.js_** into the funct
 This function should return (a number) which is the sum of the values written in the path given in input.
 
 ```javascript
-run("exercise5-sample-1.txt") // 30
+run("exercise5-sample-1.txt") // 34
 ```
 
 After finish this exercise, please commit this file.
