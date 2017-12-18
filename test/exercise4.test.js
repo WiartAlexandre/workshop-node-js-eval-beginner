@@ -20,7 +20,7 @@ describe("Exercise #4", function() {
         exercise.run(function(a, b, c) {
           return a(b, c);
         })
-      ).to.be.eql(34);
+      ).to.be.eql(b * c);
     });
   });
 });

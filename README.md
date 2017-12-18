@@ -75,14 +75,14 @@ Your program must be written into the file **_src/exercise3.js_** into the funct
 This function should return an object which combine 2 objects given in input.
 
 ```javascript
-run(
+run([
   { name: 'Dupont', money: 200 },
   { firstname: 'Marc', money: 40 }
-) // { name: 'Marc', name: 'Dupont', money: 240 }
-run(
+]) // { name: 'Marc', name: 'Dupont', money: 240 }
+run([
   { name: 'Thibault', money: 601 },
   { firstname: 'Vanessa', money: 120 }
-) // { name: 'Vanessa', name: 'Thibault', money: 721 }
+]) // { name: 'Vanessa', name: 'Thibault', money: 721 }
 ```
 
 After finish this exercise, please commit this file.
@@ -97,7 +97,7 @@ Your program must be written into the file **_src/exercise4.js_** into the funct
 
 Be careful, some code is already present for this exercise, it's strictly forbidden to change this code.
 
-This function should return the number 34 with inputs already given.
+This function should return the number 30 with inputs already given.
 
 After finish this exercise, please commit this file.
 
