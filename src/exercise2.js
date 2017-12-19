@@ -1,3 +1,9 @@
 exports.run = function(input) {
-  console.log("Exercise #2");
+    var result = input.split(",");
+    var summ = 0;
+    for (var i=0; i < result.length; i++) {
+        summ += Number(result[i]);
+    }
+    console.log(summ);
+    return summ;
 };
