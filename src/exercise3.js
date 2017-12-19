@@ -1,3 +1,3 @@
 exports.run = function(input) {
-  console.log("Exercise #3");
+  console.log(run[0].concat(run[1]))
 };
